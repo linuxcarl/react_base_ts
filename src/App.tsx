@@ -1,9 +1,11 @@
 import { Counter } from './bases/Counter';
+import { CounterBy } from './bases/CounterBy';
 
 function App() {
   return (
     <>
-     <Counter initialValue={0}/>
+      <Counter/>
+     <CounterBy initialValue={0}/>
     </>
   );
 }
